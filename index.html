@@ -4,120 +4,44 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width-device-width, initial-scale-1.0">
-        <title>Fase 2 </title>     
-        <style> 
-          /*******Estilo para la barra de navegación*****************/    
-          #menuh {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            font-size: medium;
-          }
-          #menuh>li {
-            float: left;
-          }
-          #menuh>li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;           
-          }
-          #menuh>li a:hover {
-            /*background-color: #111;*/
-            background-color: #fff;
-            color: #000;
-            border: solid 1px #000;           
-          }  
-        /***********Fin estilo barra de navegación*************/   
-        /*****Estilo para distribución de Grilla******/
-        .item1 { grid-area: header; }
-        .item2 { grid-area: menu; }
-        .item3 { grid-area: main; }
-        .item4 { grid-area: footer; }
-
-        .grid-container {
-          display: grid;
-          grid-template-areas:
-            'header header header header header header'
-            'main main main main main main'
-            'footer footer footer footer footer footer';
-          /*gap: 1px; este es el grosor del borde de celdas de la grilla*/
-          /*background-color: #2196F3;
-          padding: 1px; /* Este es esapciado externo de la grilla*/
-        }
-
-        .grid-container > div {
-          /*background-color: rgba(255, 255, 255, 0.8); Background de grilla*/
-          text-align: center;
-          /*padding: 20px 0;*/
-          /*font-size: 30px;*/
-        }
-        /*****Fin distribución de grilla**************/
-
-        </style>
-    </head>
-    
+        <title>Fase 3 </title>  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        -->
+    </head>    
     <body>  
-      <div class="grid-container">
-        <div class="item1"> <!--Este div representa el header de la página-->          
-          <nav>
-            <ul id="menuh">
-              <li><a class="active" href="#home">Inicio</a></li>
-              <li><a href="#css-grid">CSS Grid</a></li>
-              <li><a href="#mockup">Mockup</a></li>
-              <li><a href="#about">Acerca de</a></li>
-            </ul>
-          </nav>           
-        </div><!--fin header-->
-        <div class="item3"><!-- Este es el contendor principal-->
-          <section id="home">
-            <header>
-              <h2>Distribución de elementos en pagina web con CSS Grid</h2>
-              <img width=800px; src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8d374c1e-228a-47e8-be5b-10fa1f4d40c8/mrh-css-grid-fig-01-large-opt.png">
-            </header>
-          </section>
-          <section id="css-grid">
-            <h2>CSS GRID LAYOUT</h2>
-            <p style="text-align: left;font-size: 20px;">
-              CSS Grid layout contiene funciones de diseño dirigidas a los desarrolladores de aplicaciones web. El CSS grid se puede utilizar para lograr muchos diseños diferentes. También se destaca por permitir dividir una página en áreas o regiones principales, por definir la relación en términos de tamaño, posición y capas entre partes de un control construido a partir de primitivas HTML.
-            </p>
-            <p style="text-align: left;font-size: 20px;">
-              Al igual que las tablas, el grid layout permite a un autor alinear elementos en columnas y filas. Sin embargo, con CSS grid son posibles muchos más diseños y de forma más sencilla que con las tablas. Por ejemplo, los elementos secundarios de un contenedor de cuadrícula podrían posicionarse para que se solapen y se superpongan, de forma similar a los elementos posicionados en CSS.
-            </p>
-            <h2>EJEMPLO SENCILLO</h2>
-            <P style="text-align: left;font-size: 20px;">
-              El siguiente ejemplo muestra un grid de tres columnas con filas nuevas creadas con un mínimo de 100 píxeles y un máximo automático. Los elementos se han colocado en el grid utilizando posicionamiento en línea.
-            </P>
-            <img width=100%; src="./CSS-grid.png">
-            <P style="text-align: left;font-size: 20px;">
-               <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_layout_named">Ejemplo tomado de W3School click en el enlace para visitar el sitio</a>
-            </P>
-          </section>
-          <section id="mockup">
-            <h2>MOCKUP DE LA PÁGINA</h2>
-            <img width=100%; src="./mockup.png">
-            <P style="text-align: left;font-size: 20px;">
-              <a href=" https://balsamiq.cloud/spqrp7h/pj9hili">Ver Mockup</a>
-            </P>           
-          </section>
-        </div> 
-        <div class="item4">
-          <section id="about">
-
-            <h1> Diseñado por: Luis Almeida</h1> 
-            <hr>
-            <h3> Correo: laalmeidap@unadvirtual.edu.co </h3> 
-            <h3> WhatsApp: 3117192618 </h3> 
-            <h3> Ultima actualización: 02/07/2023 </h3> 
-            <h3> Copyright © </h3> 
-            <hr>           
-          </section>
+      <header><h1 style="text-align: center;">CSS-GRID</h1></header>
+      <nav>
+        <nav>
+          <ul class="menuh">
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="tema.html">Tema</a></li>      
+            <li><a href="nosotros.html">Nosotros</a></li>       
+          </ul>
+        </nav>  
+      </nav>
+      <main>
+        <section>
+          <h2 class="centrado">Distribución de elementos en pagina web con CSS Grid</h2>
+          <div class="centrado"><img class="centrado" width=400px; src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8d374c1e-228a-47e8-be5b-10fa1f4d40c8/mrh-css-grid-fig-01-large-opt.png"></div>          
+        </section>        
+      </main>
+      <aside>
+        <div class="sidebar">
+          <a href="index.html"><i class="fa fa-light fa-home"></i> Inicio</a>
+          <a href="audio.html"><i class="fa fa-light fa-headphones"></i> Audio</a>
+          <a href="tema.html"><i class="fa fa-light fa-book"></i> Tema</a>
+          <a href="nosotros.html"><i class="fa fa-light fa-address-book"></i> Nosotros</a>
         </div>
-      </div>
-      <!-- 
-       -->
+      </aside>
+      <footer class="centrado">
+        <p>
+          © Copyriht Universidad Nacional Abierta y a distancia 2023<br>
+          Ultima actualización: 02/07/2023
+        </p>
+      </footer>
     </body>
 </html>
