@@ -39,41 +39,51 @@
                   <li><a class="dropdown-item" href="cuestionario1.html">Cuestionario Selectores CSS</a></li>
                   <li><a class="dropdown-item" href="cuestionario2.html">Cuestionario BOX-Model</a></li>
                 </ul>
-              </li> 
+              </li>
             </ul>
           </div>
         </div>
       </nav>
       <main>
-        <section>
-          <table>            
-            <tr>
-              <td><img class="roundimg" width=300px; src="img/foto1.jpg"></td>
-              <td>
-                <h5>Yuby Yulieth Contreras</h5> 
-                <h6>Correo: yycontrerasa@unadvirtual.edu.co </h6> 
-                <i style="font-size:24px" class="fa">&#xf232;<h6>3234402014</h6></i>                 
-              </td>  
-            </tr>
-            <tr>
-              <td><img class="roundimg" width=300px; src="img/foto.jpg"></td>
-              <td>
-                <h5>Luis Almeida</h5> 
-                <h6>Correo: laalmeidap@unadvirtual.edu.co </h6> 
-                <i style="font-size:24px" class="fa">&#xf232;<h6>3117192618</h6></i>  
-              </td>     
-            </tr>
-            <tr>
-              <td><img class="roundimg" width=300px; src="img/foto2.jpg"></td>
-              <td>
-                <h5>Jesús Alberto Guzmán</h5> 
-                <h6>Correo: jaguzman3@unadvirtual.edu.co </h6> 
-                <i style="font-size:24px" class="fa">&#xf232;<h6>3182639401</h6></i>  
-              </td>     
-            </tr>
-          </table>           
-          <hr>           
-        </section>       
+        <section style="padding: 10px;font-size: small;">
+          <h3 id="resultado">Responda las siguientes preguntas</h3> 
+          <div>
+            <form name="formulario">
+                <h5>1.¿Qué selector CSS se utiliza para seleccionar elementos por su clase?</h5>
+
+                <input type="radio" name="r1" value="a"> a. # <br>
+                <input type="radio" name="r1" value="b"> b. . <br>
+                <input type="radio" name="r1" value="c"> c. : <br>
+
+                <h5>2. ¿Cuál de los siguientes selectores CSS selecciona elementos por su etiqueta HTML?</h5>
+
+                <input type="radio" name="r2" value="a"> a. TagSelector <br>
+                <input type="radio" name="r2" value="b"> b. ElementSelector <br>
+                <input type="radio" name="r2" value="c"> c. TypeSelector <br>
+
+                <h5>3. ¿Cuál de los siguientes selectores CSS se utiliza para seleccionar elementos que son descendientes directos de otro elemento?</h5>
+
+                <input type="radio" name="r3" value="a"> a. > <br>
+                <input type="radio" name="r3" value="b"> b. + <br>
+                <input type="radio" name="r3" value="c"> c. ~ <br>
+
+                <h5>4. Si deseas seleccionar todos los elementos dentro de un contenedor con el atributo "id" igual a "miContenedor", ¿cuál selector usarías?</h5>
+
+                <input type="radio" name="r4" value="a"> a. #miContenedor * <br>
+                <input type="radio" name="r4" value="b"> b. #miContenedor > <br>
+                <input type="radio" name="r4" value="c"> c. #miContenedor + <br>
+
+                <h5>5. ¿Cuál de los siguientes selectores CSS selecciona elementos que tengan un atributo específico?</h5>
+
+                <input type="radio" name="r5" value="a"> a. (attr) <br>
+                <input type="radio" name="r5" value="b"> b. [attr] <br>
+                <input type="radio" name="r5" value="c"> c. attr() <br>
+
+                <br><input type="button" value="Enviar" onclick="procesarRespuestas()">
+            </form>
+          </div>
+          <script src="js/script1.js"></script>
+        </section>     
       </main>
       <aside>
         <div class="sidebar">

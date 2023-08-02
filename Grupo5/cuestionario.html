@@ -39,41 +39,41 @@
                   <li><a class="dropdown-item" href="cuestionario1.html">Cuestionario Selectores CSS</a></li>
                   <li><a class="dropdown-item" href="cuestionario2.html">Cuestionario BOX-Model</a></li>
                 </ul>
-              </li> 
+              </li>
             </ul>
           </div>
         </div>
       </nav>
       <main>
-        <section>
-          <table>            
-            <tr>
-              <td><img class="roundimg" width=300px; src="img/foto1.jpg"></td>
-              <td>
-                <h5>Yuby Yulieth Contreras</h5> 
-                <h6>Correo: yycontrerasa@unadvirtual.edu.co </h6> 
-                <i style="font-size:24px" class="fa">&#xf232;<h6>3234402014</h6></i>                 
-              </td>  
-            </tr>
-            <tr>
-              <td><img class="roundimg" width=300px; src="img/foto.jpg"></td>
-              <td>
-                <h5>Luis Almeida</h5> 
-                <h6>Correo: laalmeidap@unadvirtual.edu.co </h6> 
-                <i style="font-size:24px" class="fa">&#xf232;<h6>3117192618</h6></i>  
-              </td>     
-            </tr>
-            <tr>
-              <td><img class="roundimg" width=300px; src="img/foto2.jpg"></td>
-              <td>
-                <h5>Jesús Alberto Guzmán</h5> 
-                <h6>Correo: jaguzman3@unadvirtual.edu.co </h6> 
-                <i style="font-size:24px" class="fa">&#xf232;<h6>3182639401</h6></i>  
-              </td>     
-            </tr>
-          </table>           
-          <hr>           
-        </section>       
+        <section style="padding: 10px;font-size: small;">
+          <h3 id="resultado">Responda las siguientes preguntas</h3> 
+          <div>
+               <form name="formulario">
+                   <h5>1. Que es CSS-GRID</h5>
+                   <input type="radio" name="r1" value="a"> a. Es una técnica de hojas de estilo CSS <br>
+                   <input type="radio" name="r1" value="b"> b. Es una propiedad CSS <br>
+                   <input type="radio" name="r1" value="c"> c. Es el nombre de un estilo <br>
+                   <h5>2. Para que sirve la propiedad grid-container:</h5>
+                   <input type="radio" name="r2" value="a"> a. para estilizar un objeto <br>
+                   <input type="radio" name="r2" value="b"> b. Para definir el contenedor de la tabla o grilla <br>
+                   <input type="radio" name="r2" value="c"> c. Para establecer una clase CSS <br>
+                   <h5>3. Con que propiedades se define el número de filas y columnas de la grilla:</h5>
+                   <input type="radio" name="r3" value="a"> a. grid-template-rows y grid-template-columns <br>
+                   <input type="radio" name="r3" value="b"> b. filas y columnas <br>
+                   <input type="radio" name="r3" value="c"> c. setFilas y SetColumnas <br>
+                   <h5>4. para que sirve la propiedad grid-template-areas:</h5>
+                   <input type="radio" name="r4" value="a"> a. definir borde de grilla <br>
+                   <input type="radio" name="r4" value="b"> b. definir margen <br>
+                   <input type="radio" name="r4" value="c"> c. combinar celdas y nombrarlas <br>
+                   <h5>5. para que sirve la propiedad grid-gap:</h5>
+                   <input type="radio" name="r5" value="a"> a. Para definir espacio entre celdad de la grilla <br>
+                   <input type="radio" name="r5" value="b"> b. definir grosor del borde de la celda <br>
+                   <input type="radio" name="r5" value="c"> c. definir espacio interno de las celdas <br>
+                   <input type="button" value=" Enviar" onclick="procesarRespuestas()">
+               </form>
+          </div>
+          <script src="js/script.js"></script>
+        </section>     
       </main>
       <aside>
         <div class="sidebar">
